@@ -648,6 +648,13 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
+"@phenomnomnominal/tsquery@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-3.0.0.tgz#6f2f4dbf6304ff52b12cc7a5b979f20c3794a22a"
+  integrity sha512-SW8lKitBHWJ9fAYkJ9kJivuctwNYCh3BUxLdH0+XiR1GPBiu+7qiZzh8p8jqlj1LgVC1TbvfNFroaEsmYlL8Iw==
+  dependencies:
+    esquery "^1.0.1"
+
 "@schematics/angular@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.0.1.tgz#8d5bfb00c0ba79cc248c6d17b4782b00b6453d79"
@@ -2122,7 +2129,7 @@ commander@^2.19.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
 
-common-tags@1.8.0:
+common-tags@1.8.0, common-tags@^1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
   integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
@@ -2845,11 +2852,23 @@ esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
 
+esquery@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/esquery/-/esquery-1.0.1.tgz#406c51658b1f5991a5f9b62b1dc25b00e3e5c708"
+  integrity sha512-SmiyZ5zIWH9VM+SRUReLS5Q8a7GxtRdxEBVZpm98rJM7Sb+A9DVCndXfkeFUd3byderg+EbDkfnevfCwynWaNA==
+  dependencies:
+    estraverse "^4.0.0"
+
 esrecurse@^4.1.0:
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/esrecurse/-/esrecurse-4.2.1.tgz#007a3b9fdbc2b3bb87e4879ea19c92fdbd3942cf"
   dependencies:
     estraverse "^4.1.0"
+
+estraverse@^4.0.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.3.0.tgz#398ad3f3c5a24948be7725e83d11a7de28cdbd1d"
+  integrity sha512-39nnKffWz8xN1BU/2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw==
 
 estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
@@ -6863,6 +6882,20 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   resolved "https://registry.yarnpkg.com/run-queue/-/run-queue-1.0.3.tgz#e848396f057d223f24386924618e25694161ec47"
   dependencies:
     aproba "^1.1.1"
+
+rxjs-tools-transformer@^0.0.1-alpha.1:
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.1.tgz#1216dfe9c50f57cd0ff25127484f8e0f8b53117c"
+  integrity sha512-w0NOu3itivN87ByYVRIuoQa0ceL5gz6aMK3E08+2+ArT7wvq+4XuT7PjfHVTN4xQw5RVKeHhh/DM5++pIOPPEw==
+  dependencies:
+    "@phenomnomnominal/tsquery" "^3.0.0"
+    common-tags "^1.8.0"
+    minimatch "^3.0.4"
+
+rxjs-tools@^0.0.1-alpha.1:
+  version "0.0.1-alpha.1"
+  resolved "https://registry.yarnpkg.com/rxjs-tools/-/rxjs-tools-0.0.1-alpha.1.tgz#f7444bd0dff5ae59e7bfa1a8fa55f607a8a9ad72"
+  integrity sha512-ra83a2EqF5UvCQ4FqQBorzWvOt6ebVt2EqB3xxjwvzk7iLRC8unInEz8pTa2bzvMuFrMuPVFbEhfrZVwLGcI4g==
 
 rxjs@6.3.3:
   version "6.3.3"
