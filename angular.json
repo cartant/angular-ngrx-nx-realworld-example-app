@@ -9,8 +9,11 @@
 			"projectType": "application",
 			"architect": {
 				"build": {
-					"builder": "@angular-devkit/build-angular:browser",
+					"builder": "@angular-builders/custom-webpack:browser",
 					"options": {
+            "customWebpackConfig": {
+              "path": "./custom-webpack.config.js"
+            },
 						"outputPath": "dist/apps/conduit",
 						"index": "apps/conduit/src/index.html",
 						"main": "apps/conduit/src/main.ts",
@@ -53,7 +56,7 @@
           }
 				},
 				"serve": {
-					"builder": "@angular-devkit/build-angular:dev-server",
+					"builder": "@angular-builders/custom-webpack:dev-server",
 					"options": {
 						"browserTarget": "conduit:build"
 					},
