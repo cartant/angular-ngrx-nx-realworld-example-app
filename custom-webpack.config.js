@@ -24,6 +24,8 @@ module.exports = (config, options) => {
     return config;
   }
   console.log(`Found ${transformers.length} transformer(s)`);
+  // Angular's transformers use the type checker, so it's likely unsafe to
+  // insert the tools transformer before them.
   transformers.push(context => sourceFile => {
     console.log(`Transform ${sourceFile.fileName}`);
     return sourceFile;
