@@ -12,7 +12,7 @@
 					"builder": "@angular-builders/custom-webpack:browser",
 					"options": {
             "customWebpackConfig": {
-              "path": "./custom-webpack.config.js"
+              "path": "../../dist/transformer/config/angular.js"
             },
 						"outputPath": "dist/apps/conduit",
 						"index": "apps/conduit/src/index.html",
