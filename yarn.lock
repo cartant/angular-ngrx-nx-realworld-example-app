@@ -7025,10 +7025,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs-tools-transformer@^0.0.1-alpha.3:
-  version "0.0.1-alpha.3"
-  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.3.tgz#4998472ac45d501bdd3d27af4d493084760c3d95"
-  integrity sha512-jLjjjcdHg+pog8oYazOwesDGNXBXOV4X3MspjasT4ruhnVdhs9I3hM6/gvqs3jZcBGsQ3TKl2FhZQOkgR0lQsA==
+rxjs-tools-transformer@^0.0.1-alpha.4:
+  version "0.0.1-alpha.4"
+  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.4.tgz#a37048c93726c867ee2bd93bbd5437f29ec22d79"
+  integrity sha512-SEJdKyhpqiEqVkxGdl8Lbm+YwZKaCs2V2ZwbuRUQgnrEjvIIsUtiKqEhQoUNJ5ikxn6XXOK+sEG0YDw6Gy7k2Q==
   dependencies:
     "@phenomnomnominal/tsquery" "^3.0.0"
     "@phenomnomnominal/tstemplate" "^0.1.0"
