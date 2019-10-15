@@ -654,11 +654,6 @@
   dependencies:
     esquery "^1.0.1"
 
-"@phenomnomnominal/tstemplate@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tstemplate/-/tstemplate-0.1.0.tgz#125b2617fa8cead47433bbf34ba7ef4e30a7c0f2"
-  integrity sha512-/v+GIVNFHAz4+nQtgy9e5ZAXK3xj6TbP5s9JTpnFuqkcLB+gB2lJ6x/nsDhkKhzR6o4REuzhsYoWYnXqKC/UnQ==
-
 "@schematics/angular@8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@schematics/angular/-/angular-8.0.1.tgz#8d5bfb00c0ba79cc248c6d17b4782b00b6453d79"
@@ -2193,7 +2188,7 @@ commander@^2.12.1:
   version "2.17.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
-common-tags@1.8.0, common-tags@^1.8.0:
+common-tags@1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
   integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
@@ -7025,15 +7020,13 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs-tools-transformer@^0.0.1-alpha.4:
-  version "0.0.1-alpha.4"
-  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.4.tgz#a37048c93726c867ee2bd93bbd5437f29ec22d79"
-  integrity sha512-SEJdKyhpqiEqVkxGdl8Lbm+YwZKaCs2V2ZwbuRUQgnrEjvIIsUtiKqEhQoUNJ5ikxn6XXOK+sEG0YDw6Gy7k2Q==
+rxjs-tools-transformer@^0.0.1-alpha.5:
+  version "0.0.1-alpha.5"
+  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.5.tgz#0115cf6225936d8051c0e6886c0e94c6522a3e78"
+  integrity sha512-AD7g2HEHNJY8qSXkbUa+sUFP8//aduh8sn9CqbGkhHx7K7TsO63RDx+NXdyfIcp7v/K9qZv+GeSuUdY8xfJStg==
   dependencies:
     "@phenomnomnominal/tsquery" "^3.0.0"
-    "@phenomnomnominal/tstemplate" "^0.1.0"
     "@types/webpack" "^4.32.1"
-    common-tags "^1.8.0"
     minimatch "^3.0.4"
 
 rxjs-tools@^0.0.1-alpha.2:
