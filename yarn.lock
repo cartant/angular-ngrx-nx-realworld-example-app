@@ -7020,10 +7020,10 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs-tools-transformer@^0.0.1-alpha.6:
-  version "0.0.1-alpha.6"
-  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.6.tgz#4bad3423016dc58d8a9f1e9f8c4a19172d168338"
-  integrity sha512-MWXm2Acph4JzfoUgbNjX9Do7A9QzbNkFDJGDTUTmISstUOLDp2cK3DP6rvwHEU5kDc8MEE9SqgxTtGombG57wQ==
+rxjs-tools-transformer@^0.0.1-alpha.7:
+  version "0.0.1-alpha.7"
+  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.7.tgz#ccdb3afe0fa78fe84ac485c9cb078d93bd0f483c"
+  integrity sha512-XHwWzBPig7u77Ym+yuWHkro05ZnUjV9LM0TIrv75Uno2q3Z+deC1nbjPp1HNmDA5EH5rYnYPPwC0knu1fZIudg==
   dependencies:
     "@phenomnomnominal/tsquery" "^3.0.0"
     "@types/webpack" "^4.32.1"
