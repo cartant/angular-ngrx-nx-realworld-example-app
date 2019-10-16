@@ -647,10 +647,10 @@
     yargs "^11.0.0"
     yargs-parser "10.0.0"
 
-"@phenomnomnominal/tsquery@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-3.0.0.tgz#6f2f4dbf6304ff52b12cc7a5b979f20c3794a22a"
-  integrity sha512-SW8lKitBHWJ9fAYkJ9kJivuctwNYCh3BUxLdH0+XiR1GPBiu+7qiZzh8p8jqlj1LgVC1TbvfNFroaEsmYlL8Iw==
+"@phenomnomnominal/tsquery@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-4.0.0.tgz#610e8ac968137e4a0f98c842c919bb8ad0e85718"
+  integrity sha512-s2Yet/MCj9Jh6nR6GfldrUPT6Y+aM1jIAdiKcOKEzmeKALT0Tc7SFIkYP3KvzjzbkKK5W7BiJ3cWy2UOa4ITbw==
   dependencies:
     esquery "^1.0.1"
 
@@ -7020,12 +7020,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs-tools-transformer@^0.0.1-alpha.7:
-  version "0.0.1-alpha.7"
-  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.7.tgz#ccdb3afe0fa78fe84ac485c9cb078d93bd0f483c"
-  integrity sha512-XHwWzBPig7u77Ym+yuWHkro05ZnUjV9LM0TIrv75Uno2q3Z+deC1nbjPp1HNmDA5EH5rYnYPPwC0knu1fZIudg==
+rxjs-tools-transformer@^0.0.1-alpha.8:
+  version "0.0.1-alpha.8"
+  resolved "https://registry.yarnpkg.com/rxjs-tools-transformer/-/rxjs-tools-transformer-0.0.1-alpha.8.tgz#f24c605290c11fd966a070f4ff3d3a6e431f1fcf"
+  integrity sha512-K6WSviGLJaw8DQyQQu7lnQfBqaVpFa5OBKf/pGhSg+mnxQcSQAHrJXpb8r1/0jCrXNWYfJDsp0NgilwNThkzGA==
   dependencies:
-    "@phenomnomnominal/tsquery" "^3.0.0"
+    "@phenomnomnominal/tsquery" "^4.0.0"
     "@types/webpack" "^4.32.1"
     minimatch "^3.0.4"
 
